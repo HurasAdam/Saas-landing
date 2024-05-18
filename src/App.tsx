@@ -4,6 +4,7 @@ import Features from "./components/Features"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Introduction from "./components/Introduction"
+import MobileNavbar from "./components/MobileNavbar"
 import Navbar from "./components/Navbar"
 import Partners from "./components/Partners"
 import Tools from "./components/Tools"
@@ -17,6 +18,7 @@ function App() {
   return (
 <>
 <Navbar/>
+<MobileNavbar/>
 <Hero/>
 <Partners/>
 <Introduction/>

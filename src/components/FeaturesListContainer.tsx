@@ -13,7 +13,7 @@ label={label}
 description={description} 
 features={features}
 isNew={isNew}
-className="md:max-w-[40%] lg:max-w-[32%] xl:max-w-[24%]"/>
+className="md:max-w-[40%] lg:max-w-[32%] xl:max-w-[26%]"/>
         )
     })}
     </div>
