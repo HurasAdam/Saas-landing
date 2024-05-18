@@ -15,7 +15,7 @@ const SERVLICESLIST=[
         label: "Marketing Automation",
         description: "Automate your marketing campaigns and track performance to maximize your outreach efforts.",
         features: ["Email Campaigns", "Social Media Integration", "Analytics Dashboard"],
-        isNew: true
+        isNew: false
     },
     {
         label: "Help Desk & Support",

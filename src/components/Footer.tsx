@@ -1,11 +1,6 @@
 import React from 'react'
+import constants from '../constants';
 
-const links = [
-    {title:"Terms", path:"/"},
-    {title:"Privacy", path:"/"},
-    {title:"About", path:"/"},
-    {title:"Contact", path:"/"},
-]
 
 const Footer:React.FC = () => {
 	return (
@@ -13,7 +8,7 @@ const Footer:React.FC = () => {
 		<div className="max-w-[1400px] mx-auto md:h-24 md:py-0 py-5 md:px-52 px-5 flex md:flex-row flex-col items-center justify-between  md:gap-0 gap-5">
 			<span className="font-bold text-lg text-gray-800">AstraSoft</span>
 			<div className="flex items-center gap-6">
-				{links.map((link) => {
+				{constants.FOOTERLINKS.map((link) => {
 					return (
 						<a
 							className="font-medium text-[15px] text-gray-600"

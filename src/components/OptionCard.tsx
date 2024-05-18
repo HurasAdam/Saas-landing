@@ -14,7 +14,8 @@ const OptionCard:React.FC<IProps> = ({label, description, className,features,isN
   
 
   return (
-    <div className={`flex flex-col justify-between gap-5 rounded-lg  bg-[#f4f5f6] ${className} pt-8 px-8 pb-7 `}>
+    <div className={`flex flex-col justify-between gap-5 rounded-lg  bg-[#f4f5f6] ${className} pt-8 px-8 pb-7 relative`}>
+     {isNew && <span className='absolute top-3 bg-green-500 text-white text-sm rounded-l-xl px-2 font-bold right-[-4px]'>New</span>}
 <div className='flex gap-2.5  py-5'>
 <div className=' mt-1'>
 <FaStar className='w-6 h-auto text-indigo-300'/>

@@ -1,16 +1,7 @@
 import React from 'react'
-import logo1 from "../assets/images/logo1.svg";
-import heroImage from "../assets/images/heroImage7.png";
+import constants from '../constants';
 
-    const logos =[
-        {id:1, image:logo1},
-        {id:1, image:logo1},
-        {id:1, image:logo1},
-        {id:1, image:logo1},
-    ]
-
-
-const Hero= ()=>{
+const Hero:React.FC= ()=>{
 
     return (
       <div className='border-b border-slate-300 bg-blue-100 '>
@@ -34,7 +25,7 @@ const Hero= ()=>{
             </button>
           </div>
           <div className="w-full bg-[#F1F5F9] rounded-lg py-5 flex items-center justify-between px-3 ">
-            {logos.map((logo) => {
+            {constants.HEROLOGOS.map((logo) => {
               return (
                 <img
               
@@ -49,7 +40,7 @@ const Hero= ()=>{
         </div>
 
         <img
-          src={heroImage}
+          src={constants.IMAGES.heroImage}
           className="hidden md:flex rounded-xl  w-[48%] xl:w-[%] h-auto "
           alt="heroImage"
         />

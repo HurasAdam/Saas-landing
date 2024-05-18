@@ -5,7 +5,7 @@ import OptionCard from './OptionCard'
 
 const FeaturesListContainer:React.FC = () => {
   return (
-    <div className='px-14 md:px-0 flex flex-wrap justify-center gap-8 pt-5 pb-16 '>
+    <div className='px-8 sm:px-16 md:px-0 flex flex-wrap justify-center gap-8 pt-5 pb-16 '>
     {constants.SERVLICESLIST.map(({label,description,features,isNew})=>{
         return(
 <OptionCard 
