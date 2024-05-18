@@ -1,30 +1,19 @@
 import React, { useEffect, useState } from 'react';
-import { RxHamburgerMenu } from "react-icons/rx";
-import MobileNavbar from './MobileNavbar';
+import constants from '../constants';
 
 const Navbar:React.FC = () => {
   const [active, setActive] = useState(false);
-
 
   const isActive = ()=>{
     window.scrollY >0 ? setActive(true) : setActive(false);
   }
 
-  useEffect(()=>{
+ useEffect(()=>{
 window.addEventListener("scroll",isActive);
-
 return ()=>{
   window.removeEventListener("scroll",isActive);
 };
   },[]);
-
-const links = [
-    {title:"Products",path:"/"},
-    {title:"Solutions",path:"/"},
-    {title:"Help Center",path:"/"},
-    {title:"Pricing",path:"/"},
-]
-
 
   return (
 
@@ -33,7 +22,7 @@ const links = [
 
 <span className='font-bold text-2xl text-gray-800'>AstraSoft</span>
 <div className='hidden md:flex items-center gap-6 '>
-{links.map(({path,title})=>{
+{constants.NAVLINKS.map(({path,title})=>{
     return(
     <a
     key={title} 
@@ -44,8 +33,6 @@ const links = [
   )
 })}
 </div>
-
-
 
 <div className='flex items-center gap-5'>
   <a href="#" className='text-blue-600 font-semibold'>Log in</a>
