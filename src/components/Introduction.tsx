@@ -11,7 +11,7 @@ const Introduction: React.FC = () => {
   ];
 
   return (
-    <div className="max-w-[1600px] mx-auto flex flex-col-reverse md:flex-row px-5 pt-20 sm:pt-24 md:pt-40 md:px-10 gap-0 md:gap-10 lg:gap-10" >
+    <div className="max-w-[1400px] mx-auto flex flex-col-reverse md:flex-row px-5 pt-20 sm:pt-24 md:pt-14 md:px-10 gap-0 md:gap-10 lg:gap-10" >
       <div className='flex-1 flex items-center gap-4 py-24 w-full md:justify-normal justify-center px-1  '>
         {images.map(({ src }, index: number) => {
           return (

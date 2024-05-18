@@ -3,7 +3,7 @@ import toolsImage from "../assets/images/tools.svg";
 
 const Tools:React.FC = () => {
 	return (
-		<div className="max-w-[1600px] mx-auto md:pt-44 pt-36 md:px-24 px-5 flex md:flex-row flex-col items-center md:justify-around justify-center md:gap-5 gap-10">
+		<div className="max-w-[1400px] mx-auto md:pt-44 pt-36 md:px-24 px-5 flex md:flex-row flex-col items-center md:justify-around justify-center md:gap-5 gap-10">
 			<div className="flex-1 flex flex-col gap-8 md:gap-5">
 			<span className=" text-center lg:my-20 sm:text-left font-bold xl:text-6xl text-5xl max-w-[700px] leading-[70px] md:leading-[58px] xl:leading-[68px] ">
 			Unlock Potential with Comprehensive Tools

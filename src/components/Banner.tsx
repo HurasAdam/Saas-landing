@@ -3,7 +3,7 @@ import baloons from "../assets/images/baloons.jpg";
 
 const Banner:React.FC = () => {
     return (
-		<div className="max-w-[1600px] mx-auto  md:pt-44 pt-28 px-0 md:px-10 lg:px-12">
+		<div className="max-w-[1400px] mx-auto  md:pt-44 pt-28 px-0 md:px-10 lg:px-12">
 			<div
 				className=" flex w-full md:rounded-3xl relative md:h-[50vh] items-center justify-between bg-cover bg-center md:p-0 p-8"
 				style={{ backgroundImage: `url(${baloons})` }}
