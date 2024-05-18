@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      borderRadius: {
+        'water-drop': '30% 70% 70% 30% / 30% 30% 70% 70% ',
+      }
+    },
   },
   plugins: [],
 }
