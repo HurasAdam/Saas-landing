@@ -4,7 +4,7 @@ SaaS Landing Page is a modern and responsive landing page for a SaaS (Software a
 
 ## Description
 
--This landing page is designed to introduce potential users to a SaaS product. It focuses on showcasing the main features and benefits of the application, encouraging users to learn more and join the community.
+- This landing page is designed to introduce potential users to a SaaS product. It focuses on showcasing the main features and benefits of the application, encouraging users to learn more and join the community.
 
 ## Technologies
 
@@ -33,3 +33,4 @@ Before you begin, ensure you have the following installed on your local machine:
   - Open your browser and navigate to http://localhost:5173 to see the running application.
 
 ## Live 📍
+https://astrosoftsaas.netlify.app
