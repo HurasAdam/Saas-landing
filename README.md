@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+# SaaS Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SaaS Landing Page is a modern and responsive landing page for a SaaS (Software as a Service) application, built with React, TypeScript, Tailwind CSS, and Vite.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-This landing page is designed to introduce potential users to a SaaS product. It focuses on showcasing the main features and benefits of the application, encouraging users to learn more and join the community.
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- The landing page is built with the following technologies:
+  - **React**: A leading JavaScript library for building user interfaces.
+  - **Vite**: A modern build tool for rapidly building React applications.
+  - **Tailwind CSS**: A utility-first CSS framework for quickly styling applications.
+  - **TypeScript**: A superset of JavaScript that adds static typing for enhanced code quality and scalability.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Prerequisites
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Before you begin, ensure you have the following installed on your local machine:
+- [Node.js](https://nodejs.org/): Make sure to install the latest LTS version.
+- [npm](https://www.npmjs.com/): npm is bundled with Node.js, but it's recommended to have the latest version.
+
+## Installation
+
+- To install and run SaasLanding locally on your computer, follow these steps:
+  - Clone the repository to your local machine.
+       `git clone https://github.com/HurasAdam/Saas-landing`
+  - Install dependencies in the project's root directory.
+    `npm install`
+  - After installing dependencies, run the project in development mode.
+    `npm run dev`
+  - Open your browser and navigate to http://localhost:5173 to see the running application.
+
+## Live 📍
